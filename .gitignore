@@ -8,6 +8,7 @@ frontend/node_modules/
 backend/.env
 frontend/.env
 *.env.local
+backend/.env.example
 
 # IDE / Editor config folders
 .vscode/
