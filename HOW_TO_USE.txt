@@ -1,0 +1,167 @@
+╔══════════════════════════════════════════════════════════════╗
+║                  DocuMind AI - Quick Guide                   ║
+╚══════════════════════════════════════════════════════════════╝
+
+✅ YOUR APP IS NOW RUNNING!
+
+🌐 Open your browser and go to:
+   http://localhost:5174
+
+   (Note: Sometimes it's 5173, sometimes 5174 - try both!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 HOW TO USE:
+
+1. FIRST TIME SETUP:
+   ✓ Click "Get Started" on the landing page
+   ✓ Click "Sign Up" to create an account
+   ✓ Enter: Name, Email, Password
+   ✓ Click "Create Account"
+
+2. UPLOAD A PDF:
+   ✓ After login, you'll see the Dashboard
+   ✓ Click "Upload PDF" or drag & drop a PDF file
+   ✓ Wait 10-30 seconds for processing
+   ✓ Status will change from "Processing" → "Completed" (green)
+
+3. CHAT WITH YOUR PDF:
+   ✓ Click on your uploaded PDF card
+   ✓ Type your question in the chat box
+   ✓ Press Enter or click Send
+   ✓ AI will answer based on your PDF!
+
+4. USE AI TOOLS:
+   ✓ Click "AI Tools" button (top right in chat)
+   ✓ Choose: Summary, Keywords, Important Points, Quiz, or Flashcards
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 EXAMPLE QUESTIONS TO ASK:
+
+   • "What is this document about?"
+   • "Summarize the main points"
+   • "What are the key findings?"
+   • "Explain [topic] from the document"
+   • "List all important dates mentioned"
+   • "What are the conclusions?"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ COMMON ERRORS YOU MIGHT SEE:
+
+1. "Port already in use"
+   → This is NORMAL! It means the server is already running.
+   → Just open your browser to http://localhost:5174
+
+2. "Network Error" or "Cannot connect to server"
+   → Make sure the backend window is still open
+   → Backend should show: "DocuMind AI Backend Running!"
+   → If not, run START.bat again
+
+3. "PDF processing failed"
+   → Try a smaller PDF (under 10MB)
+   → Make sure the PDF is not corrupted
+   → Wait at least 30 seconds
+
+4. "AI error" or "API error"
+   → The OpenRouter API might be having issues
+   → Try again in a few seconds
+   → If it persists, the API key might need updating
+
+5. "Token expired" or "Please login again"
+   → Your session expired (after 7 days)
+   → Just login again with your email and password
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 TROUBLESHOOTING:
+
+Problem: Nothing works!
+Solution: 
+   1. Close all windows
+   2. Double-click START.bat
+   3. Wait for 2 windows to open
+   4. Open browser to http://localhost:5174
+
+Problem: "Node.js not found"
+Solution:
+   1. Download from https://nodejs.org
+   2. Install it
+   3. RESTART YOUR COMPUTER
+   4. Run START.bat again
+
+Problem: Browser shows blank page
+Solution:
+   1. Wait 10 seconds for the page to load
+   2. Press F5 to refresh
+   3. Try http://localhost:5173 or http://localhost:5174
+   4. Check if frontend window is still open
+
+Problem: Can't upload PDF
+Solution:
+   1. Make sure you're logged in
+   2. Try a smaller PDF (under 10MB)
+   3. Only PDF files are supported (not Word, images, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 IMPORTANT NOTES:
+
+✓ Keep both windows open (Backend + Frontend)
+✓ Don't close the black windows while using the app
+✓ All data is stored in memory (restarting = data cleared)
+✓ First upload takes longer (installing dependencies)
+✓ AI responses take 5-15 seconds (be patient!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 WHAT YOU'LL SEE:
+
+Landing Page:
+   → Beautiful dark theme with gradient effects
+   → "Get Started" button
+   → Features showcase
+
+Login/Register:
+   → Simple forms with glassmorphism design
+   → Email and password fields
+
+Dashboard:
+   → Your uploaded PDFs as cards
+   → Upload button
+   → Sidebar with navigation
+
+Chat Page:
+   → ChatGPT-style interface
+   → Your messages on the right (blue)
+   → AI responses on the left (purple)
+   → AI Tools panel on the right
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 TECHNICAL INFO:
+
+Backend:  http://localhost:5000
+Frontend: http://localhost:5174
+AI Model: NVIDIA Nemotron 70B (via OpenRouter)
+Storage:  In-memory (no database)
+Auth:     JWT tokens (7-day expiry)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 TO STOP THE APP:
+
+   1. Close the "DocuMind Backend" window
+   2. Close the "DocuMind Frontend" window
+   3. Or just close all black windows
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 ENJOY CHATTING WITH YOUR PDFs!
+
+If you see any errors, don't panic! Most errors are normal and just
+mean the server is already running. Just open your browser and start
+using the app!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

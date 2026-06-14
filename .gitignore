@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Local Environment Variables / Secrets
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# IDE / Editor config folders
+.vscode/
+.idea/
+.DS_Store
+
+# User Uploaded Documents
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Production Build outputs
+dist/
+build/
